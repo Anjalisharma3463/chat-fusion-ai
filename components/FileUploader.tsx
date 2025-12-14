@@ -1,7 +1,7 @@
 "use client" 
 import { useDropzone } from 'react-dropzone'
 import { useCallback, useState } from 'react'
-import { Upload, FileText, CheckCircle2, X } from 'lucide-react'
+import { Upload, FileText, CheckCircle2, X, RocketIcon } from 'lucide-react'
 import { Button } from './ui/button'
 
 function FileUploader() {
@@ -60,7 +60,7 @@ function FileUploader() {
             {isDragActive ? (
               <div className="flex flex-col items-center gap-6">
                 <div className="relative">
-                  <Upload className="h-20 w-20 text-emerald-400 animate-bounce" />
+                  <RocketIcon className="h-20 w-20 text-emerald-400 animate-bounce" />
                   <div className="absolute inset-0 bg-emerald-400/20 blur-2xl rounded-full animate-pulse" />
                 </div>
                 <div>

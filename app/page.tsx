@@ -192,7 +192,7 @@ export default function Home() {
                 Sign In
               </button>
               <Link href="/dashboard" className="bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-lg transition-all">
-                Get Started
+                Dashboard
               </Link>
             </div>
           </div>
