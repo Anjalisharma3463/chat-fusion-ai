@@ -20,12 +20,7 @@ const Header = () => {
               <Link href="/dashboard/upgrade">Pricing</Link>
             </Button>
 
-            <Button asChild variant="outline" className="border-gray-700 hover:bg-gray-800 hover:text-white">
-              <Link href="/dashboard/upload" className="flex items-center gap-2">
-                <FilePlus2 className="h-4 w-4" />
-                <span className="hidden sm:inline">Upload</span>
-              </Link>
-            </Button>
+    
 
             <UserButton 
               appearance={{
