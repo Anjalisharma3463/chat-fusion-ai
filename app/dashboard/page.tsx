@@ -1,5 +1,5 @@
 function Dashboard(){
-    return <h1>Dashboard Page - Protected</h1>
+    return <h1 className="bg-red-300 min-h-screen w-full">Dashboard Page - Protected</h1>
 }
 
 
